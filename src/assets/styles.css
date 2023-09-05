@@ -1,0 +1,26 @@
+h1 {
+  background-color: aquamarine;
+  margin: 20px;
+}
+
+.form-title {
+  text-align: center;
+  color: #161717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  animation-name: title;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.05, 1.04, 1, 0.98);
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+p {
+  color: black;
+}
+
+h2 {
+  columns: 3;
+}

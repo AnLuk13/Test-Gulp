@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "autoprefixer": "postcss src/assets/styles.css --use autoprefixer -o src/assets/styles2.css",
+    "watch:scss": "node-sass -w src/assets/styles.scss src/assets/styles.css"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.66.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "defaults",
+    "not ie <= 11"
+  ],
+  "name": "test",
+  "version": "1.0.0",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
